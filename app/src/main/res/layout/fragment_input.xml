@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputFragment"
+    android:background="@color/fon">
+
+
+    <TextView
+        android:layout_width="394dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/text"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-25dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="369dp"
+        android:layout_height="517dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/gray"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="354dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/button"
+            android:backgroundTint="@color/black"
+            android:hint="@string/enter_log"
+            android:minHeight="48dp"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="352dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:backgroundTint="@color/black"
+            android:hint="@string/enter_pas"
+            android:inputType="textPassword"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/enter"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button"
+            android:backgroundTint="@color/fon"
+            android:text="@string/log_in" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

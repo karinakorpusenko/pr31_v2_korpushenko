@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dohod</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="continion">Далее</string>
+    <string name="enter_log"> Введите логин</string>
+    <string name="enter_pas"> Введите пароль</string>
+    <string name="check_pas"> Подтвердите пароль</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="log_in">Войти</string>
+    <string name="returnb">Добавить доход</string>
+</resources>
